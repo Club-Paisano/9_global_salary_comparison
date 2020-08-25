@@ -1,6 +1,6 @@
 const gni = [];
 const endpoint =
-	'http://api.worldbank.org/v2/country/all/indicator/NY.GNP.PCAP.CD?per_page=264&date=2018&format=json';
+	'https://api.worldbank.org/v2/country/all/indicator/NY.GNP.PCAP.CD?per_page=264&date=2018&format=json';
 fetch(endpoint)
 	.then((blob) => blob.json())
     .then((data) => {
